@@ -14,17 +14,18 @@ This project demonstrates the containerization of a simple Python application us
 
 To build the Docker image, run the following command in your terminal: `docker build -t my-python-app .` 
 
-
 - `-t` (or `--tag`) assigns a name to the image.
 - `.` specifies the build context, which is the current directory where your Dockerfile is located.
+
+![Building Docker Image](https://github.com/tahir007malik/simpleDockerPythonApp/Docs/building-docker-image.png) 
 
 ### Running the Docker Container
 
 Once the image is built, you can run the container using: `docker run my-python-app`
 
-
 This command will execute your Python application inside the container, and you should see the output:
 
+![Running Docker Container using Docker Image](https://github.com/tahir007malik/simpleDockerPythonApp/Docs/running-docker-container-using-image-that-we-build.png)
 
 ## Conclusion
 
